@@ -1,10 +1,7 @@
-.navbar {
-    margin-top: -8px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.carousel {
-    margin-top: -8px;
-}
-
 .faqs{
     background: #03001e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
@@ -16,7 +13,6 @@
 }
 .footer p{
     line-height: 40px;
-
     font-weight: bold;
 }
 .footer a{
@@ -25,3 +21,11 @@
     font-weight: bold;
     color:black;
 }
+.box{
+    min-height: 250px;
+    transition: 0.5s;
+}
+.box:hover{
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    }
