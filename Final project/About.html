@@ -14,9 +14,10 @@
 <!-- Header -->
 
 <header>
+
  <!-- navbar -->
 
- <div class="comtainer">
+ <div class="container">
     <div class="row">
         <div class="col">
             <nav class="navbar navbar-expand-lg bg-body-none">
@@ -30,7 +31,7 @@
           <div class="navbar-nav ms-auto">
           <a class="nav-link  " aria-current="page" href="index.html">Signup</a>
           <a class="nav-link active text-danger fw-bold " href="About.html    ">About</a>
-          <a class="nav-link " href="contact.html    ">Contact</a>
+          <a class="nav-link " href="Contact.html">Contact</a>
         </div>
       </div>
     </div>
@@ -46,40 +47,149 @@
 
     <!-- section 1 -->
 
-    <div class="container ">
+    <div class="container  ">
       <div class="row mt-5">
-        <div class="col-sm-12 col-md-5 mt-1 text-start text-md-end pe-0">
-          <img src="./Images/mic.jpeg" alt="mic" class="img-fluid">
+        <div class="col-sm-12 col-md-5 mt-1 text-center text-md-end pe-0 ">
+          <img src="./Images/mic.jpeg" alt="mic" class="img-fluid ">
         </div>
         <div class="col-sm-12 col-md-5 mt-5 px-0 ">
-          <h1 class="text-start mt-5 "> &nbsp;&nbsp;&nbsp;     Collab<span class="text-danger">Talk.ai</span> <br>
+          <h1 class=" text-center text-md-start mt-2 mt-md-5 "> &nbsp;&nbsp;&nbsp;     Collab<span class="text-danger">Talk.ai</span> <br>
             <span class="text-danger ">Get</span> Started</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col text-center mt-3">
-          <textarea name="script" id="script" cols="100" rows="10" placeholder="Your Script"></textarea>
+        <div class="col text-center mt-3">  
+          <textarea name="script" id="script" rows="10" placeholder="Your Script"></textarea>
+        </div>
+      </div>
+      <p class="text-center fs-2 my-2 my-md-5"> OR</p>
+
+      <div class="row my-5 m-3 mb-md-5">
+        <div class="col-sm-12 col-md-5 offset-0 offset-md-2 border border-dark rounded-5">
+
+          <input type="text"  name="" id="link" placeholder="Your Link" class="mt-4 mx-4 rounded-5 p-2  w-75">
+
+          <p class="text-center my-3">OR</p>
+
+          <input type="text" name="" id="topic" placeholder="Your Topic" class="mb-4 mx-4 rounded-5 p-2 w-75">
+
         </div>
 
-<div class="row mt-5">
-  <div class="colsm-12 col-md-8 border border-danger rounded-5 p-3">
+          <div class="col-sm-12 col-md-4  offset-0 offset-md-1 ">
 
-    <input type="text" name="" id=""  >
+            <p class="m-1 mb-md-2 mt-4 mt-md-0">Length of your podcast</p>
+            <input type="text" name="" id="podcast" placeholder="Your Topic" class="rounded-5 p-2 my-1 my-md-0 w-60 ">
+          </div>
+      </div>
+      
+<!-- row 1 -->
+      <div class="row mt-5">
 
-  </div>
-</div>
+        <!-- col 1 -->
+        <div class="col-sm-12 col-md-3 offset-0 offset-md-2 mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Speaker 1</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Name">
+        </div>
+        <!-- col 2 -->
+        <div class="col-sm-12 col-md-3 mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Speaker 2</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0  w-50 w-md-60" placeholder="Name" >
+        </div>
+        <!-- col 3  -->
+        <div class="col-sm-12 col-md-3 o mb-3 mb-md-0"> 
+          <label for="name" class="mx-4 ">Speaker3(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 mx-md-3  w-50 w-md-70" placeholder="Name" >
+        </div>
 
       </div>
 
+<!-- row 2 -->
 
-    </div>
- 
+      <div class="row my-3">
+        <!-- col 1 -->
+        <div class="col-sm-12 col-md-3 offset-0 offset-md-2 mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Gender(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Male">
+        </div>
+        <!-- col 2 -->
+        <div class="col-sm-12 col-md-3  mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Gender(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Female" >
+        </div>
+        <!-- col 3  -->
+        <div class="col-sm-12 col-md-3 mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Gender(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Male" >
+        </div>
 
+      </div>
 
-  
-</main>
+<!-- row 3 -->
 
-<!-- Footer -->
+      <div class="row mb-3">
+        <!-- col 1 -->
+        <div class="col-sm-12 col-md-3 offset-0 offset-md-2 mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Age(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Young">
+        </div>
+        <!-- col 2 -->
+        <div class="col-sm-12 col-md-3  mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Age(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Old" >
+        </div>
+        <!-- col 3  -->
+        <div class="col-sm-12 col-md-3  mb-3 mb-md-0"> 
+          <label for="name" class="mx-4">Age(optional)</label><br>
+          <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="Middle Age" >
+        </div>
+
+      </div>
+
+<!-- row 4 -->
+
+      <div class="row ">
+       <!-- col 1 -->
+       <div class="col-sm-12 col-md-3 offset-0 offset-md-2 mb-3 mb-md-0"> 
+        <label for="name" class="mx-4">Accent(optional)</label><br>
+        <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="American">
+      </div>
+      <!-- col 2 -->
+      <div class="col-sm-12 col-md-3 mb-3 mb-md-0"> 
+        <label for="name" class="mx-4">Accent(optional)</label><br>
+        <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-lg-60" placeholder="Australian" >
+      </div>
+      <!-- col 3  -->
+      <div class="col-sm-12 col-md-3  mb-3 mb-md-0"> 
+        <label for="name" class="mx-4">Accent(optional)</label><br>
+        <input type="text" name="name" id="name" class="rounded-5 p-2 mx-3 my-md-0 w-50 w-md-60" placeholder="British" >
+      </div>
+
+      </div>
+
+    <!--   image -->
+      
+    <div class="row  ">
+         <div class="col-sm-12 col-md-3 col-lg-2 mt-5 mt-md-0 ">
+          <img src="./Images/boy1.jpeg" alt="" class="boy1 d-none d-md-block ">
+        </div>
+        <div class="col-sm-12 col-md-7 col-lg-6 mt-0 mt-md-5 mx-0 mx-md-5">
+          <p class="mt-5 mx-0 mx-md-5 ">Generate Conversational podcasts using your favorite 
+            medium articles or simply by giving a topic. </p>
+        </div>
+      </div>
+
+      <!-- button -->
+
+      <div class="row">
+        <div class="col text-center my-5">
+          <button type="button" class="btn btn-danger p-2  rounded-3" href="Contact.html" >Generate</button>
+        </div>
+      </div>
+
+    </div> 
+</main> 
+
+ <!-- Footer  -->
 
 <footer>
 

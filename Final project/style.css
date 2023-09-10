@@ -8,9 +8,32 @@
     background-color:#fdecec;
     border-radius: 8px;
     border: none;
+    width: 70%;
+  
 
 }
 :placeholder-shown{
-    padding-left: 30px;
+    padding-left: 30px;  
+    padding-top: 10px; 
+}
+.bgc{
+    background-color: #FEF5F5;
     
 }
+.btn1 span{
+    background-color: #FEF5F5; 
+} 
+input{
+    background-color: #FEF5F5;
+    border: none;
+}
+.itshere{
+    font-size: 80px;
+}
+
+.boy1{
+    position: absolute;
+    top: 1300px;
+    z-index: -1;
+}
+
